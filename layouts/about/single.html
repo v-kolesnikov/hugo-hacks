@@ -1,0 +1,11 @@
+{{- define "main" -}}
+  <h2>About us</h2>
+
+  <nav>
+    <a href="/about">About</a>
+    <a href="/about/contacts">Contacts</a>
+    <a href="/about/job">Job</a>
+  </nav>
+
+  {{ block "custom-content" . }}{{ end }}
+{{- end -}}
